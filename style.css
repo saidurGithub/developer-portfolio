@@ -84,3 +84,53 @@ h1{
     border-radius: 6px;
     font-size: 16px;
 }
+/* experance */
+#experance{
+    margin: 100px 0;
+    background: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experance .ex-heading{
+    text-align: center;
+}
+#experanc .dream-big{
+
+
+}
+.sub-exp{
+    display: flex;
+}
+.sub-exp h3{
+    color: orange;
+}
+
+.ex-div{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 5%;
+    padding: 20px;
+    
+}
+.ex-div h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.ex-div:first-child{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(231, 113, 100), rgb(230, 163, 39));
+    border-image-slice: 1;
+}
+.ex-div:last-child{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+/* footer */
+footer p{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+}
